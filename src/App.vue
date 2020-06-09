@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <FloatOper />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import FloatOper from "./views/FloatOper";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
-  }
+    FloatOper
+  },
+  created() {}
 };
 </script>
 
